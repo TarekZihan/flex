@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/topography.jpg), linear-gradient(to right, #f93d66, #6d47d9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+
+}
+
+.flex-container {
+    padding: 55px;
+
+}
+
+.flex-container li {
+
+    padding: 5px;
+    width: 50%;
+
+}
+
+
+.flex-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.flex-container a {
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    padding: 13px;
+    background-color: #FFC600;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.07);
+
+
+}
+
+#top {
+    display: flex;
+    margin-top: -23px;
+
+}
+
+.zihan {
+    background-image: url(../img/top.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 57px;
+    height: 420px;
+    width: 935px;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    color: #272727;
+    font-weight: bolder;
+
+}
+
+.zihan h1 {
+    margin-top: 160px;
+    background: #FFC600;
+    display: inline-block;
+    margin-left: 45px;
+    width: 250px;
+    text-align: center;
+}
+
+.zihan p {
+    background: #FFC600;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-left: 45px;
+    padding: 5px 10px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+
+}
+
+.price {
+    margin-left: 20px;
+    margin-top: -40px;
+    text-align: center;
+    display: block;
+
+}
+
+.odd {
+
+    background-color: #FFC600;
+    width: 450px;
+    height: 200px;
+}
+
+.even {
+    background-color: #FFC600;
+    margin-top: -20px;
+    width: 450px;
+    height: 200px;
+}
+
+.price p {
+    font-size: 40px;
+}
+
+.price h3 {
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    text-transform: capitalize;
+
+}
+
+
+#container {
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 45px;
+
+
+}
+
+.boxs {
+    background: whitesmoke;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.boxs h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.boxs p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 9px;
+
+}
+
+.icon {
+    margin-top: 5px;
+    display: block;
+    font-size: 50px;
+}
+
+#details {
+    margin-top: -32px;
+    margin-left: 53px;
+    margin-right: 53px;
+}
+
+.about img {
+    display: flex;
+    margin-top: 58px;
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 420px;
+
+}
+
+.about_details h2 {
+    margin-top: 128px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #272727;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+}
+
+.about_details p {
+    font-size: 15px;
+    color: #272727;
+    font-weight: bolder;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+
+
+}
+
+.link a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #F8C115;
+    color: black;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    font-family: sans-serif;
+}
+
+#new {
+
+    margin-left: 45px;
+}
+
+
+#new .image_box h2 {
+
+    margin-top: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+
+
+
+}
+
+.image_box img {
+    height: 208px;
+    width: 220px;
+    margin: 8px;
+}
